@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-registro {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.938);
+    padding: 38px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'DynaPuff', cursive;
+    color: white
+}
+
+.form-registro h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.control {  
+    width: 100%;
+    background-color: transparent;
+    padding: 9px;
+    border-radius: 4px;
+    margin-bottom: 17px;
+    border-radius: 13px;
+    margin-bottom: 17px;
+    border: 1px solid white;
+    font-size: 18px;
+    color: white;
+}
+
+.form-registro p {
+    height: 37px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 40px;
+}
+
+.form-registro a {
+    color: white;
+}
+
+.form-registro .boton {
+    width: 100%;
+    background-color: transparent;
+    padding: 12px;
+    margin: 16px 0;
+    border-radius: 4px;
+    margin-bottom: 17px;
+    border-radius: 13px;
+    margin-bottom: 17px;
+    border: 1px solid white;
+    font-size: 12px 0;
+    color: white;
+    font-family: 'DynaPuff', cursive;
+}
+
+.inicio {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600;
+    padding-right: 17px;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: 'DynaPuff', cursive;
+}
+
+/* Estilos para el cuadro del input */
+.input-wrapper {
+    position: relative;
+    background-color: transparent;
+    padding: 2px;
+}
+
+/* Estilos para el ícono de ojo */
+.eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-70%);
+    cursor: pointer;
+    fill: rgb(255, 255, 255); /* Aseguramos que el ícono sea de color blanco */
+}
+
+.error {
+    color: red;
+}
